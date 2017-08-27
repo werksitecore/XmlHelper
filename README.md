@@ -6,8 +6,6 @@ Following extension methods are available
 2. **ToModel&lt;T&gt;()** - Generic Extension Method creating a Model from the XML string
 3. **IsValidXml()** - Validate whether the provided XML string is Valid
 
-### Markdown
-
 ### Convert Model to XML using XmlSerializer
 Converting a Model to an XML string, use **ToXml()**
 
