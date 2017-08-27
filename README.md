@@ -34,7 +34,7 @@ var xml = "<News xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:x
 		  		"<Body>&lt;p&gt;To convert, I use &amp;nbsp;&lt;em&gt;XmlSerializer&lt;/em&gt; to serialize.&lt;/p&gt;</Body>" +
 		  		"</News>";
 
-var model = xml.ToModel<NewsModel>(); // Mapping the Model to the Generic ToModel&lt;T&rt; extension will convert an XML string to a Model. 
+var model = xml.ToModel<NewsModel>(); // Mapping the Model to the Generic ToModel<T>; extension will convert an XML string to a Model. 
 ```
 
 ### Validate XML
